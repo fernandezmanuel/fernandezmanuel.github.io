@@ -1,6 +1,6 @@
 var animation = bodymovin.loadAnimation({
     container: document.getElementById('star'),
-    renderer: 'svg',
+    renderer: 'canvas',
     loop: false,
     autoplay: true,
     path: 'json/star.json'
